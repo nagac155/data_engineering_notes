@@ -1,0 +1,43 @@
+My Sql
+
+mysql.server start
+mysql_secure_installation (password: sowji)
+mysql -u root -p
+
+data collection
+Data ingestion 
+Data transaformation - spark script -> runs on data bricks in azure. 
+
+
+Medalian structure
+Bronze - raw data (data lake - s3)
+Silver - transformations ->computations, null,  - ETL tool glue
+Gold - business transformation as per requirements 
+
+data warehouse AWS redshift, snowflake, azure sinaaps, GCP big query
+
+
+
+Data ingestion  2 types - batch processing and Real time streaming
+Real time vs batch
+real-time processing using Kafka
+Batch processing using spark
+
+Databases - OLTP - online transactional processing day-to-day operations(like bank transactions, orders)
+Data Warehouse - OLAP - online analytical processing historical data(like sales trends) -low performance
+
+ETL Vs ELT
+Extract Transform Load
+Extract Load Transform - snowflake (popular)
+
+
+
+fact dimension
+
+
+Star schema vs snowflake schema
+data governance
+
+
+Sql basics
+
